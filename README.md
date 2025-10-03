@@ -130,6 +130,8 @@ to a snow white. This would create the perfect illusion of a snowy peaked top on
 especially the individual hues and more. By adjusting 'DirectionalLight3D' in the energy produced, shading, fog, color, and more 
 it helps to customize and adjust that light and sky lighting to better fit the world hue without damaging the environment too much.
 
+<br> 
+
 **Reference of No Color**
 <br> 
 - An example of the reference map with no color
