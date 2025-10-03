@@ -6,19 +6,19 @@ Assignment 1 for COMP 360 from Group 2
 # GROUP 2 - COMP 360 - ON1 - GROUP EXPLANATION
 # Project Init: (Jason Haug)
 
-For this project, we created a 3D terrain map in Godot using procedural generation techniques. 
-We used FastNoiseLite to generate a grayscale noise texture, which served as the heightmap for our terrain. 
-Each pixel's brightness in the noise image was mapped to a corresponding vertex height in 3D space, forming valleys and peaks.
-We constructed the terrain mesh using the SurfaceTool, connecting neighboring pixels into triangles. 
-To enhance realism, we added color mapping based on elevation, simulating rivers, grasslands, mountains, and snowy peaks.
+For this project, we created a 3D terrain map in Godot using procedural generation techniques. <br>
+We used FastNoiseLite to generate a grayscale noise texture, which served as the heightmap for our terrain. <br>
+Each pixel's brightness in the noise image was mapped to a corresponding vertex height in 3D space, forming valleys and peaks. <br>
+We constructed the terrain mesh using the SurfaceTool, connecting neighboring pixels into triangles. <br>
+To enhance realism, we added color mapping based on elevation, simulating rivers, grasslands, mountains, and snowy peaks. <br><br>
 
-The scene utilizes several 3D nodes:
-	• MeshInstance3D for rendering the terrain mesh
-	• Marker3D for camera positioning and movement
-	• Camera3D for interactive navigation and zoom
-	• DirectionalLight3D and WorldEnvironment for lighting, shadows, and atmospheric effects
+The scene utilizes several 3D nodes:<br>
+	• MeshInstance3D for rendering the terrain mesh<br>
+	• Marker3D for camera positioning and movement<br>
+	• Camera3D for interactive navigation and zoom<br>
+	• DirectionalLight3D and WorldEnvironment for lighting, shadows, and atmospheric effects<br><br>
 
-This approach allowed us to build a visually rich and interactive terrain environment, demonstrating procedural geometry, color mapping, and advanced scene setup in Godot.
+This approach allowed us to build a visually rich and interactive terrain environment, demonstrating procedural geometry, color mapping, and advanced scene setup in Godot.<br>
 
 ---------------------------------------------------------
 # Project 2D Image Addition Explanation: (Akshit Marwaha)
