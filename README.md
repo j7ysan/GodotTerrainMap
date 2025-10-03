@@ -89,9 +89,8 @@ Overall our script allows for:
 - Smooth zoom in and out of the landscape
 - Orbiting around a marker to view different angles
 
-<br>
 ## Reference
-Godot Documentation
+**Godot Documentation**
 https://docs.godotengine.org/en/stable/classes/class_camera3d.html
 
 ---------------------------------------------------------
