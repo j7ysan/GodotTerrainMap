@@ -101,15 +101,15 @@ it helps to customize and adjust that light and sky lighting to better fit the w
 <br> 
 - An example of the reference map with no color
 <br>
-res://nocolor_reference_map0.png
+https://github.com/j7ysan/GodotTerrainMap/blob/main/nocolor_reference_map0.png
 
 
 **Reference of Color**
 <br> 
 - An example or examples of the reference map with color
 <br>
-res://reference_map1.png
+https://github.com/j7ysan/GodotTerrainMap/blob/main/reference_map1.png
 
-res://reference_map2.png
+https://github.com/j7ysan/GodotTerrainMap/blob/main/reference_map2.png
 
 ---------------------------------------------------------
