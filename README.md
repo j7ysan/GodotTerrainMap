@@ -78,7 +78,7 @@ This gives a “from above” perspective, which worked well with the free camer
 https://github.com/j7ysan/GodotTerrainMap/blob/main/no_light_reference1.png
 
 <br>
-**Reference of Added Environment Variables**
+
 - An example or examples of the reference map with light and shadows being added
 https://github.com/j7ysan/GodotTerrainMap/blob/main/with_light_reference2.png
 
