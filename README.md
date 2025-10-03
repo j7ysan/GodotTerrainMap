@@ -92,14 +92,12 @@ https://github.com/j7ysan/GodotTerrainMap/blob/main/with_light_reference2.png
 # Project Marker3D Explanation: (Manmeet)
 
 ## Why
-<br>
 
 - Rather than making an array of Camera3D nodes, we utilized Marker3D nodes as markers in the world.
 
 - This enabled us to establish important positions and camera orientations without paying for increased performance costs.
 
 ## How
-<br>
 
 - Marker3D nodes were set at significant spots in the game scene (e.g., map overview, terrain highs, player spawn).
 
@@ -108,7 +106,6 @@ https://github.com/j7ysan/GodotTerrainMap/blob/main/with_light_reference2.png
 - It simplifies controlling points of view when it's time for extrusions or cutscene switching.
 
 ## Effect
-<br>
 
 - Better efficiency: A single active Camera3D suffices, cutting down on processor overhead.
 
@@ -117,12 +114,10 @@ https://github.com/j7ysan/GodotTerrainMap/blob/main/with_light_reference2.png
 - Clean design: Keeps the project symptom-free and modular as markers serve as virtual anchors not additional cameras.
 
 ## Example Use Case
-<br>
 
 - Marker3D at the top of the mountain enables the camera to change its viewpoint to the summit. Another Marker3D near the river provides for rapid camera positioning for verification of aquatic/stream visuals. While going for a “fly-through” of the planet, the camera will gently transition between Marker3D to Marker3D in order to display terrain.
 
 ## Reference
-<br>
 
 - Godot Documentation 
 https://docs.godotengine.org/en/stable/classes/class_marker3d.html
