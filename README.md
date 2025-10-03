@@ -7,7 +7,7 @@ Assignment 1 for COMP 360 from Group 2
 # Project Init:
 
 ---------------------------------------------------------
-# Project 2D Image Addition Explanation (Akshit Marwaha)
+# Project 2D Image Addition Explanation: (Akshit Marwaha)
 
 ## What I did:
 
@@ -24,7 +24,7 @@ Brighter pixels form peaks and darker pixels form valleys, creating a clear terr
 Reduced sampling resolution to improve performance while keeping terrain features clear
 Integrated cleanly with the existing geometry and environment settings
 ---------------------------------------------------------
-# Project Geometry Map Explanation:(Christian)
+# Project Geometry Map Explanation: (Christian)
 <br>
 I first took a look at how the Geometry3D example project worked. I noticed that the project used surface tool, so I figured that I should start there.
 The Godot documentation on the surface tool helped me understand how it works:
@@ -51,7 +51,7 @@ End result was this black and white terrain!
 # Project Marker3D Explanation:
 
 ---------------------------------------------------------
-# Project Environment Explanation (Bhav):
+# Project Environment Explanation: (Bhav)
 
 ## Creation
 The environment of the project was initialized upon adding a standard colorwave onto the geometry we 
