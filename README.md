@@ -22,7 +22,7 @@ Assignment 1 for COMP 360 from Group 2
 # Project Camera3D Explanation:
 
 ---------------------------------------------------------
-# Project Color-Addition Explanation: (Jasan)
+# Project Color Addition Explanation: (Jasan)
 **Why**
 <br>
 - Added color onto the world. Essentially by adding the color, it helped
