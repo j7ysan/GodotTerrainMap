@@ -7,8 +7,25 @@ Assignment 1 for COMP 360 from Group 2
 # Project Init:
 
 ---------------------------------------------------------
-# Project 2DImage Addition Explanation:
+# Project 2D Image Addition Explanation (Akshit Marwaha)
 
+What I did
+
+Loaded a grayscale 2D image and sampled pixel intensities
+
+Mapped image coordinates to 3D where x and z come from pixel position and y comes from normalized brightness
+
+Built a heightmap mesh by connecting neighboring pixels into triangles
+
+Why it matters
+
+Brighter pixels form peaks and darker pixels form valleys, creating a clear terrain base for the team’s color and lighting work
+
+Key notes
+
+Reduced sampling resolution to improve performance while keeping terrain features clear
+
+Integrated cleanly with the existing geometry and environment settings
 ---------------------------------------------------------
 # Project Geometry Map Explanation:(Christian)
 <br>
