@@ -6,14 +6,14 @@ Assignment 1 for COMP 360 from Group 2
 # GROUP 2 - COMP 360 - ON1 - GROUP EXPLANATION
 # Project Init: (Jason Haug)
 
+## Initialization
 For this project, we created a 3D terrain map in Godot using procedural generation techniques. <br>
 We used FastNoiseLite to generate a grayscale noise texture, which served as the heightmap for our terrain. <br>
 Each pixel's brightness in the noise image was mapped to a corresponding vertex height in 3D space, forming valleys and peaks. <br>
 We constructed the terrain mesh using the SurfaceTool, connecting neighboring pixels into triangles. <br>
 To enhance realism, we added color mapping based on elevation, simulating rivers, grasslands, mountains, and snowy peaks. <br><br>
 
-The scene utilizes several 3D nodes:
-
+## Node Utilization
 - MeshInstance3D for rendering the terrain mesh
 
 - Marker3D for camera positioning and movement
