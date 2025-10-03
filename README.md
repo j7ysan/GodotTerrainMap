@@ -53,6 +53,19 @@ which assisted in blending in the various color hues we had made with one anothe
 Most importantly, the position of these additions was only slightly altered off the camera as to give it more of a
 "from above" perspective, so that the view is of the sun being up and above even the watcher.
 
+**Reference of No Light**
+<br> 
+- An example of the reference map with no light
+<br>
+https://github.com/j7ysan/GodotTerrainMap/blob/main/no_light_reference1.png
+
+
+**Reference of Light**
+<br> 
+- An example or examples of the reference map with light
+<br>
+https://github.com/j7ysan/GodotTerrainMap/blob/main/with_light_reference2.png
+
 ---------------------------------------------------------
 # Project Camera3D Explanation:
 
