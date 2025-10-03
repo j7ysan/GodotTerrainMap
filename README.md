@@ -56,13 +56,3 @@ the hue of that grey into a more smokey and traditional mountainside grey, that 
 If the height is anything higher than the creation point of the icey/snowy hue then it would automatically default
 to a snow white. This would create the perfect illusion of a snowy peaked top onto our geometry map to complete the terrain.
 ---------------------------------------------------------
-
-<br>
-
-# COMP 360 - ON1 - INDIVIDUAL ADDITIONS
---------------------------------------------------------
-
-# [your name] - [your work] - [explanation]
-# [references] - [video] - [image]
-
---------------------------------------------------------
