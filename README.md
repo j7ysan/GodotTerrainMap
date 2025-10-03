@@ -13,16 +13,16 @@ We constructed the terrain mesh using the SurfaceTool, connecting neighboring pi
 To enhance realism, we added color mapping based on elevation, simulating rivers, grasslands, mountains, and snowy peaks. <br><br>
 
 The scene utilizes several 3D nodes:
-	
-	- MeshInstance3D for rendering the terrain mesh
-	
-	- Marker3D for camera positioning and movement
-	
-	- Camera3D for interactive navigation and zoom
-	
-	- DirectionalLight3D and WorldEnvironment for lighting, shadows, and atmospheric effects
-	
-	<br>
+
+- MeshInstance3D for rendering the terrain mesh
+
+- Marker3D for camera positioning and movement
+
+- Camera3D for interactive navigation and zoom
+
+- DirectionalLight3D and WorldEnvironment for lighting, shadows, and atmospheric effects
+
+<br>
 
 This approach allowed us to build a visually rich and interactive terrain environment, demonstrating procedural geometry, color mapping, and advanced scene setup in Godot.<br>
 
