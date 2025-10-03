@@ -27,6 +27,7 @@ seamless = true
 seamless_blend_skirt = 0.15
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fj7yv"]
+diffuse_mode = 1
 vertex_color_use_as_albedo = true
 normal_scale = 16.0
 ao_light_affect = 0.98
