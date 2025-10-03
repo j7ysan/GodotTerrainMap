@@ -62,6 +62,7 @@ to a snow white. This would create the perfect illusion of a snowy peaked top on
 <br>
 res://nocolor_reference_map0.png
 
+<br>
 **Reference of Color**
 <br> 
 - An example or examples of the reference map with color
