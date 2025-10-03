@@ -53,16 +53,16 @@ which assisted in blending in the various color hues we had made with one anothe
 Most importantly, the position of these additions was only slightly altered off the camera as to give it more of a
 "from above" perspective, so that the view is of the sun being up and above even the watcher.
 
-**Reference of No Light**
+**Reference of No Environment Additions**
 <br> 
-- An example of the reference map with no light
+- An example of the reference map with no light or shadows being added
 <br>
 https://github.com/j7ysan/GodotTerrainMap/blob/main/no_light_reference1.png
 
 
-**Reference of Light**
+**Reference of Added Environment Variables**
 <br> 
-- An example or examples of the reference map with light
+- An example or examples of the reference map with light and shadows being added
 <br>
 https://github.com/j7ysan/GodotTerrainMap/blob/main/with_light_reference2.png
 
@@ -121,7 +121,7 @@ https://github.com/j7ysan/GodotTerrainMap/blob/main/nocolor_reference_map0.png
 <br> 
 - An example or examples of the reference map with color being made
 <br>
-
+https://github.com/j7ysan/GodotTerrainMap/blob/main/baking_map1.png
 
 https://github.com/j7ysan/GodotTerrainMap/blob/main/reference_map1.png
 
