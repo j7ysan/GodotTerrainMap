@@ -102,7 +102,6 @@ https://github.com/j7ysan/GodotTerrainMap/blob/main/with_light_reference2.png
 -Marker3D nodes were set at significant spots in the game scene (e.g., map overview, terrain highs, player spawn).
 
 -The root Camera3D may then move or snap to Marker3D nodes programmatically.
-
 -It simplifies controlling points of view when it's time for extrusions or cutscene switching.
 
 ## Effect
@@ -110,7 +109,6 @@ https://github.com/j7ysan/GodotTerrainMap/blob/main/with_light_reference2.png
 -Better efficiency: A single active Camera3D suffices, cutting down on processor overhead.
 
 -Flexibility: Alternative perceptions may be generated shifting the camera to auxiliary markers.
-
 -Clean design: Keeps the project symptom-free and modular as markers serve as virtual anchors not additional cameras.
 
 ## Example Use Case
