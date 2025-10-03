@@ -75,22 +75,22 @@ End result was this black and white terrain!
 ## Importance
 Camera 3D displays a point of view and it determines what you see, how close or far things look, and from what angle you’re looking at the 3D landscape. Without it we would have a blank screen as Godot would not know which part of 3D scene would need to be shown.
 
-##Implementation
+## Implementation
 - We used lerp/linear interpolation to make smooth transitions as you zoom in and out
 - Included event.button_index script to allow the scroll button to zoom in and out
 - In tandem with Marker3D you can rotate around a marker with the middle button, use WASD for a keyboard-style panning, and designed the scene to constantly rotate when idle 
 
-##Why
+## Why
 We created these implementations to allow for our generated terrain to be explorable similar to map editor not just a static picture.
 
-##Summary
+## Summary
 Overall our script allows for:
 - Free exploration with mouse and keyboard
 - Smooth zoom in and out of the landscape
 - Orbiting around a marker to view different angles
 
 <br>
-##Reference
+## Reference
 Godot Documentation
 https://docs.godotengine.org/en/stable/classes/class_camera3d.html
 
