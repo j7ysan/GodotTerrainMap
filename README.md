@@ -13,7 +13,8 @@ Each pixel's brightness in the noise image was mapped to a corresponding vertex 
 We constructed the terrain mesh using the SurfaceTool, connecting neighboring pixels into triangles. <br>
 To enhance realism, we added color mapping based on elevation, simulating rivers, grasslands, mountains, and snowy peaks. <br><br>
 
-## Node Utilization
+## Node Utilization:
+The scene utilizes several 3D nodes:
 - MeshInstance3D for rendering the terrain mesh
 
 - Marker3D for camera positioning and movement
