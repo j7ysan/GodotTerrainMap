@@ -10,7 +10,27 @@ Assignment 1 for COMP 360 from Group 2
 # Project 2DImage Addition Explanation:
 
 ---------------------------------------------------------
-# Project Geometry Map Explanation:
+# Project Geometry Map Explanation:(Christian)
+**Early Ideas**
+<br>
+I first took a look at how the Geometry3D example project worked. I noticed that the project used surface tool, so I figured that I should start there.
+The Godot documentation on the surface tool helped me understand how it works:
+https://docs.godotengine.org/en/4.4/tutorials/3d/procedural_geometry/surfacetool.html
+
+I first set up a single triangle by placing 3 vertices and adding the 3 indices. From there I tried to make a square. I did this by creating 3 more vertices adding those new indices.
+Next up I tried to sample the image. The image is black and white. The goal is for the brighter colours to have a greater height, which would simulate an environment.
+
+To sample the image I got a 500x500 image from the FastNoiseLite and looped through the image's x and y coordinates. For each pixel I would create 6 vertices and index them.
+This time i was setting the vertices position to Vector3(x, value of noise at xz, z), which creates the landscape.
+
+After doing this I re-read the documentation and realised that I don't need 6 vertices per pixel, I only need 1 per pixel.
+
+So I re-did the geometry, this time I first set up the vertices by looping through the image and creating one vertex per pixel.
+Then I looped through the pixels again, this time indexing 6 vertices in the shape of a square.
+I could have done some simple math to calculate which indices I would need to construct the square, but I instead made a 2d array in which I would temporarily store each index.
+
+End result was this black and white terrain!
+https://github.com/user-attachments/assets/d9312754-1b6d-43e8-a7cf-c88a1fad9679
 
 ---------------------------------------------------------
 # Project Camera3D Explanation:
