@@ -4,6 +4,8 @@
 [ext_resource type="Script" uid="uid://d2t357lekvvfd" path="res://camera_3d.gd" id="2_fj7yv"]
 
 [sub_resource type="Gradient" id="Gradient_gv5m4"]
+offsets = PackedFloat32Array(0, 0.58666664, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.26, 0.26, 0.26, 1, 1, 1, 1, 1)
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_tlwt5"]
 noise_type = 3
@@ -22,6 +24,7 @@ domain_warp_enabled = true
 noise = SubResource("FastNoiseLite_tlwt5")
 color_ramp = SubResource("Gradient_gv5m4")
 seamless = true
+seamless_blend_skirt = 0.15
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fj7yv"]
 vertex_color_use_as_albedo = true
