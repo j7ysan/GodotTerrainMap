@@ -94,18 +94,23 @@ https://github.com/j7ysan/GodotTerrainMap/blob/main/with_light_reference2.png
 ## Why
 <br>
 -Rather than making an array of Camera3D nodes, we utilized Marker3D nodes as markers in the world.
+
 -This enabled us to establish important positions and camera orientations without paying for increased performance costs.
 
 ## How
 <br>
 -Marker3D nodes were set at significant spots in the game scene (e.g., map overview, terrain highs, player spawn).
+
 -The root Camera3D may then move or snap to Marker3D nodes programmatically.
+
 -It simplifies controlling points of view when it's time for extrusions or cutscene switching.
 
 ## Effect
 <br>
 -Better efficiency: A single active Camera3D suffices, cutting down on processor overhead.
+
 -Flexibility: Alternative perceptions may be generated shifting the camera to auxiliary markers.
+
 -Clean design: Keeps the project symptom-free and modular as markers serve as virtual anchors not additional cameras.
 
 ## Example Use Case
