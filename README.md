@@ -56,6 +56,12 @@ the hue of that grey into a more smokey and traditional mountainside grey, that 
 If the height is anything higher than the creation point of the icey/snowy hue then it would automatically default
 to a snow white. This would create the perfect illusion of a snowy peaked top onto our geometry map to complete the terrain.
 
+**World Lighting**
+<br>
+- By adding 'DirectionalLight3D' we greatly enhance the color of the world by making it shine much more than previously before, 
+especially the individual hues and more. By adjusting 'DirectionalLight3D' in the energy produced, shading, fog, color, and more 
+it helps to customize and adjust that light and sky lighting to better fit the world hue without damaging the environment too much.
+
 **Reference of No Color**
 <br> 
 - An example of the reference map with no color

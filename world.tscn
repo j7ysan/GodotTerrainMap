@@ -64,6 +64,12 @@ far = 6440.2
 script = ExtResource("2_fj7yv")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="Marker3D/Camera3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 0)
+light_color = Color(0.9254902, 0.9254902, 0.5176471, 1)
+light_energy = 0.42
+light_volumetric_fog_energy = 1.77
+directional_shadow_mode = 1
+directional_shadow_blend_splits = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_fj7yv")
