@@ -160,14 +160,13 @@ it helps to customize and adjust that light and sky lighting to better fit the w
 ## Color References
 **Reference of No Color**
 - An example of the reference map with no color
-<br>
+
 https://github.com/j7ysan/GodotTerrainMap/blob/main/nocolor_reference_map0.png
 
+<br>
 
 **Reference of Creating Color**
 - An example or examples of the reference map with color being made
-
-<br>
 
 https://github.com/j7ysan/GodotTerrainMap/blob/main/baking_map1.png
 
