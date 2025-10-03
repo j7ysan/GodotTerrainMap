@@ -33,10 +33,25 @@ End result was this black and white terrain!
 https://github.com/user-attachments/assets/d9312754-1b6d-43e8-a7cf-c88a1fad9679
 
 ---------------------------------------------------------
-# Project Camera3D Explanation:
+# Project Marker3D Explanation:
 
 ---------------------------------------------------------
 # Project Environment Explanation:
+The environment of the project was initialized upon adding a standard colorwave onto the geometry we 
+had already established. Once realizing the possibility of the world building we could do from it, we added
+in the proper use of shadows, lighting, and more to bring it more life for when we add in the colors of the world.
+
+The lighting was set to that akin of the sun's light, but nothing too major as to obstruct the constructed colors.
+The energy and indirect energy was skewed due to this fact so that the light may fall favorably as to also showcase
+the roughness of the material we were using for the world's environment. This is because without light, the world seemed
+a lot more lifeless, and more importantly, smooth and underdeveloped. 
+
+By adding in volumetric fog and a better black border, it helped to separate the difference between each segment of the 
+environment. We added in a directional shadow as well with blend splits to help distinguish the finer spots on the map, 
+which assisted in blending in the various color hues we had made with one another. 
+
+Most importantly, the position of these additions was only slightly altered off the camera as to give it more of a
+"from above" perspective, so that the view is of the sun being up and above even the watcher.
 
 ---------------------------------------------------------
 # Project Camera3D Explanation:
