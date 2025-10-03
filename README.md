@@ -9,22 +9,19 @@ Assignment 1 for COMP 360 from Group 2
 ---------------------------------------------------------
 # Project 2D Image Addition Explanation (Akshit Marwaha)
 
-What I did
+## What I did:
 
 Loaded a grayscale 2D image and sampled pixel intensities
-
 Mapped image coordinates to 3D where x and z come from pixel position and y comes from normalized brightness
-
 Built a heightmap mesh by connecting neighboring pixels into triangles
 
-Why it matters
+## Why it matters:
 
 Brighter pixels form peaks and darker pixels form valleys, creating a clear terrain base for the team’s color and lighting work
 
-Key notes
+## Key notes:
 
 Reduced sampling resolution to improve performance while keeping terrain features clear
-
 Integrated cleanly with the existing geometry and environment settings
 ---------------------------------------------------------
 # Project Geometry Map Explanation:(Christian)
@@ -54,20 +51,25 @@ End result was this black and white terrain!
 # Project Marker3D Explanation:
 
 ---------------------------------------------------------
-# Project Environment Explanation:
+# Project Environment Explanation (Bhav):
+
+## Creation:
 The environment of the project was initialized upon adding a standard colorwave onto the geometry we 
 had already established. Once realizing the possibility of the world building we could do from it, we added
 in the proper use of shadows, lighting, and more to bring it more life for when we add in the colors of the world.
 
+## Usage:
 The lighting was set to that akin of the sun's light, but nothing too major as to obstruct the constructed colors.
 The energy and indirect energy was skewed due to this fact so that the light may fall favorably as to also showcase
 the roughness of the material we were using for the world's environment. This is because without light, the world seemed
 a lot more lifeless, and more importantly, smooth and underdeveloped. 
 
+## Further Usage:
 By adding in volumetric fog and a better black border, it helped to separate the difference between each segment of the 
 environment. We added in a directional shadow as well with blend splits to help distinguish the finer spots on the map, 
 which assisted in blending in the various color hues we had made with one another. 
 
+## In Conjuction with Camera3D:
 Most importantly, the position of these additions was only slightly altered off the camera as to give it more of a
 "from above" perspective, so that the view is of the sun being up and above even the watcher.
 
@@ -88,41 +90,41 @@ https://github.com/j7ysan/GodotTerrainMap/blob/main/with_light_reference2.png
 # Project Camera3D Explanation:
 
 ---------------------------------------------------------
-# Project Color Addition Explanation: (Jasan)
-**Why**
+# Project Color Addition Explanation: (Jasan Brar)
+## Why:
 <br>
 - Added color onto the world. Essentially by adding the color, it helped
 to shape and envision the world as a proper landscape. 
 
-**World Background**
+## World Background:
 <br>
 - Breaking it down height by height, anything below a suitable height was darkened, so that
 the edges remained looking 'seamless' (6). 
 
-**World Rivers/Streams**
+## World Rivers/Streams:
 <br>
 - Anything past or equal to a height of (8) on our geometric map would begin to create streams marked by a nice deep blue,
 adding onto that anything past or equal to (10) would introduce a richer blue hue to that.
 
-**World Grass/Foliage**
+## World Grass/Foliage:
 <br>
 - Anything past or equal to a height of (14) would introduce an earthy green which would be enhanced 
 by anything past or equal to a height of (18) that would introduce a more muddier green to add richness and
 depth to the grassy parts.
 
-**World Mountains**
+## World Mountains:
 <br>
 - Anything past or equal to a height of (30) would create the beginnings of a mountain, particulary the hillside,
 where it would introduce a light grey. Adding onto that, anything past or equal to a height of (41) would shape
 the hue of that grey into a more smokey and traditional mountainside grey, that would be seen more near to the summit.
 
-**World Peaks**
+## World Peaks:
 <br>
 - Anything past or equal to a height of (47) would create the beginnings of an icey and snowy peak/mountain top. 
 If the height is anything higher than the creation point of the icey/snowy hue then it would automatically default
 to a snow white. This would create the perfect illusion of a snowy peaked top onto our geometry map to complete the terrain.
 
-**World Lighting**
+## World Dynamic Lighting:
 <br>
 - By adding 'DirectionalLight3D' we greatly enhance the color of the world by making it shine much more than previously before, 
 especially the individual hues and more. By adjusting 'DirectionalLight3D' in the energy produced, shading, fog, color, and more 
