@@ -125,40 +125,33 @@ https://docs.godotengine.org/en/stable/classes/class_marker3d.html
 ---------------------------------------------------------
 # Project Color Addition Explanation: (Jasan Brar)
 ## Why
-<br>
 - Added color onto the world. Essentially by adding the color, it helped
 to shape and envision the world as a proper landscape. 
 
 ## World Background
-<br>
 - Breaking it down height by height, anything below a suitable height was darkened, so that
 the edges remained looking 'seamless' (6). 
 
 ## World Rivers/Streams
-<br>
 - Anything past or equal to a height of (8) on our geometric map would begin to create streams marked by a nice deep blue,
 adding onto that anything past or equal to (10) would introduce a richer blue hue to that.
 
 ## World Grass/Foliage
-<br>
 - Anything past or equal to a height of (14) would introduce an earthy green which would be enhanced 
 by anything past or equal to a height of (18) that would introduce a more muddier green to add richness and
 depth to the grassy parts.
 
 ## World Mountains
-<br>
 - Anything past or equal to a height of (30) would create the beginnings of a mountain, particulary the hillside,
 where it would introduce a light grey. Adding onto that, anything past or equal to a height of (41) would shape
 the hue of that grey into a more smokey and traditional mountainside grey, that would be seen more near to the summit.
 
 ## World Peaks
-<br>
 - Anything past or equal to a height of (47) would create the beginnings of an icey and snowy peak/mountain top. 
 If the height is anything higher than the creation point of the icey/snowy hue then it would automatically default
 to a snow white. This would create the perfect illusion of a snowy peaked top onto our geometry map to complete the terrain.
 
 ## World Dynamic Lighting
-<br>
 - By adding 'DirectionalLight3D' we greatly enhance the color of the world by making it shine much more than previously before, 
 especially the individual hues and more. By adjusting 'DirectionalLight3D' in the energy produced, shading, fog, color, and more 
 it helps to customize and adjust that light and sky lighting to better fit the world hue without damaging the environment too much.
@@ -166,16 +159,16 @@ it helps to customize and adjust that light and sky lighting to better fit the w
 
 ## Color References
 **Reference of No Color**
-<br> 
 - An example of the reference map with no color
 <br>
 https://github.com/j7ysan/GodotTerrainMap/blob/main/nocolor_reference_map0.png
 
 
 **Reference of Creating Color**
-<br> 
 - An example or examples of the reference map with color being made
+
 <br>
+
 https://github.com/j7ysan/GodotTerrainMap/blob/main/baking_map1.png
 
 
