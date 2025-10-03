@@ -27,40 +27,40 @@ func _ready():
 		# Our previously used code for creating map height
 			var height = noise_image.get_pixel(x,y).r * 64
 		# Standard color which can be manipulated to add color depth to our world
-			var heightAdjustedColor = Color(0, 0, 0)
+			var adjustedcolor = Color()
 		# Standard height variable for individual usage
 			var z = height
 		
 		# World Background
 			if height <= 6:
-				heightAdjustedColor = Color(0, 0, 0)
+				adjustedcolor = Color(0, 0, 0)
 		# World River/Streams Hue
 			elif height <= 8:
-				heightAdjustedColor = Color(0.2,0.5,0.8)
+				adjustedcolor = Color(0.2,0.5,0.8)
 		# Enriching River/Streams Hue
 			elif height <= 10:
-				heightAdjustedColor = Color(0.2,0.55,0.8)
+				adjustedcolor = Color(0.2,0.55,0.8)
 		# World Grass/Foliage Hue
 			elif height <= 14:
-				heightAdjustedColor = Color(0.3,0.6,0.1)
+				adjustedcolor = Color(0.3,0.6,0.1)
 		# Enriching World Grass/Foliage Hue
 			elif height <= 18:
-				heightAdjustedColor = Color(0.3,0.51,0.1)
+				adjustedcolor = Color(0.3,0.51,0.1)
 		# World Mountain Hue
 			elif height <= 30:
-				heightAdjustedColor = Color(0.57,0.55,0.57)
+				adjustedcolor = Color(0.57,0.55,0.57)
 		# World Mountain Top Hue
 			elif height <= 41:
-				heightAdjustedColor = Color(0.52, 0.5, 0.52)
+				adjustedcolor = Color(0.52, 0.5, 0.52)
 		# World Mountain Top - Summit Hue
 			elif height <= 47:
-				heightAdjustedColor = Color(0.7, 0.85,1.0)
+				adjustedcolor = Color(0.7, 0.85,1.0)
 		# World Mountain Top - Summit - Peak Hue
 			else:
-				heightAdjustedColor = Color(1.0, 1.0, 1.0)
+				adjustedcolor = Color(1.0, 1.0, 1.0)
 			
 		# Adding in our customized heightAdjustedColor map
-			st.set_color(heightAdjustedColor)
+			st.set_color(adjustedcolor)
 		# Adding in our vertex but adjusting the hardcoded height to a simpler variable addition of the height
 			st.add_vertex(Vector3(x, z, y))
 			
