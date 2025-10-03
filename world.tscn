@@ -63,5 +63,7 @@ size = 755.69
 far = 6440.2
 script = ExtResource("2_fj7yv")
 
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Marker3D/Camera3D"]
+
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_fj7yv")
