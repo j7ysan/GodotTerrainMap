@@ -21,6 +21,7 @@ domain_warp_enabled = true
 [sub_resource type="NoiseTexture2D" id="NoiseTexture2D_tlwt5"]
 noise = SubResource("FastNoiseLite_tlwt5")
 color_ramp = SubResource("Gradient_gv5m4")
+seamless = true
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fj7yv"]
 vertex_color_use_as_albedo = true
