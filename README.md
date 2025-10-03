@@ -12,11 +12,17 @@ Each pixel's brightness in the noise image was mapped to a corresponding vertex 
 We constructed the terrain mesh using the SurfaceTool, connecting neighboring pixels into triangles. <br>
 To enhance realism, we added color mapping based on elevation, simulating rivers, grasslands, mountains, and snowy peaks. <br><br>
 
-The scene utilizes several 3D nodes:<br>
-	- MeshInstance3D for rendering the terrain mesh<br>
-	- Marker3D for camera positioning and movement<br>
-	- Camera3D for interactive navigation and zoom<br>
-	- DirectionalLight3D and WorldEnvironment for lighting, shadows, and atmospheric effects<br><br>
+The scene utilizes several 3D nodes:
+	
+	- MeshInstance3D for rendering the terrain mesh
+	
+	- Marker3D for camera positioning and movement
+	
+	- Camera3D for interactive navigation and zoom
+	
+	- DirectionalLight3D and WorldEnvironment for lighting, shadows, and atmospheric effects
+	
+	<br>
 
 This approach allowed us to build a visually rich and interactive terrain environment, demonstrating procedural geometry, color mapping, and advanced scene setup in Godot.<br>
 
@@ -100,6 +106,8 @@ https://github.com/j7ysan/GodotTerrainMap/blob/main/with_light_reference2.png
 # Project Marker3D Explanation: (Manmeet)
 
 ## Why
+
+- In our project, we used only one Marker3D node, but for some examples, I will mention more than one. 
 
 - Rather than making an array of Camera3D nodes, we utilized Marker3D nodes as markers in the world.
 
