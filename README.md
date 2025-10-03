@@ -76,16 +76,15 @@ Most importantly, the position of these additions was only slightly altered off 
 
 ## Environment References
 **Reference of No Environment Additions**
-<br> 
 - An example of the reference map with no light or shadows being added
-<br>
+
 https://github.com/j7ysan/GodotTerrainMap/blob/main/no_light_reference1.png
 
+<br>
 
 **Reference of Added Environment Variables**
-<br> 
 - An example or examples of the reference map with light and shadows being added
-<br>
+
 https://github.com/j7ysan/GodotTerrainMap/blob/main/with_light_reference2.png
 
 ---------------------------------------------------------
