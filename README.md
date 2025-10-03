@@ -55,4 +55,17 @@ the hue of that grey into a more smokey and traditional mountainside grey, that 
 - Anything past or equal to a height of (47) would create the beginnings of an icey and snowy peak/mountain top. 
 If the height is anything higher than the creation point of the icey/snowy hue then it would automatically default
 to a snow white. This would create the perfect illusion of a snowy peaked top onto our geometry map to complete the terrain.
+
+**Reference of No Color**
+<br> 
+- An example of the reference map with no color
+<br>
+res://nocolor_reference_map0.png
+
+**Reference of Color**
+<br> 
+- An example or examples of the reference map with color
+<br>
+res://reference_map1.png
+res://reference_map2.png
 ---------------------------------------------------------
