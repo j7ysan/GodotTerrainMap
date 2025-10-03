@@ -52,7 +52,7 @@ End result was this black and white terrain!
 # Project Camera3D Explanation: 
 
 ---------------------------------------------------------
-# Project Environment Explanation: (Bhav)
+# Project Environment Explanation: (Bhavik Wadhwa)
 
 ## Creation
 The environment of the project was initialized upon adding a standard colorwave onto the geometry we 
@@ -60,10 +60,9 @@ had already established. Once realizing the possibility of the world building we
 in the proper use of shadows, lighting, and more to bring it more life for when we add in the colors of the world.
 
 ## Usage
-The lighting was set to that akin of the sun's light, but nothing too major as to obstruct the constructed colors.
-The energy and indirect energy was skewed due to this fact so that the light may fall favorably as to also showcase
-the roughness of the material we were using for the world's environment. This is because without light, the world seemed
-a lot more lifeless, and more importantly, smooth and underdeveloped. 
+The main improvement came from adding a sun-like DirectionalLight3D. This gave the terrain depth by showing shadows and highlights across the hills.
+We tweaked the energy settings so the light made the surface roughness stand out without washing out the colors. 
+Without light, the terrain looked smooth and lifeless, but with it, the shapes became much clearer.
 
 ## Further Usage
 By adding in volumetric fog and a better black border, it helped to separate the difference between each segment of the 
@@ -71,20 +70,16 @@ environment. We added in a directional shadow as well with blend splits to help 
 which assisted in blending in the various color hues we had made with one another. 
 
 ## In Conjuction with Camera3D
-Most importantly, the position of these additions was only slightly altered off the camera as to give it more of a
-"from above" perspective, so that the view is of the sun being up and above even the watcher.
+We set the light source so it feels like the sun is above both the terrain and the viewer. 
+This gives a “from above” perspective, which worked well with the free camera controls, since you can fly around and see the terrain under different angles.  
 
 ## Environment References
-**Reference of No Environment Additions**
 - An example of the reference map with no light or shadows being added
-
 https://github.com/j7ysan/GodotTerrainMap/blob/main/no_light_reference1.png
 
 <br>
-
 **Reference of Added Environment Variables**
 - An example or examples of the reference map with light and shadows being added
-
 https://github.com/j7ysan/GodotTerrainMap/blob/main/with_light_reference2.png
 
 ---------------------------------------------------------
