@@ -25,7 +25,7 @@ Assignment 1 for COMP 360 from Group 2
 ---------------------------------------------------------
 
 
-# INDIVIDUAL WORK - COMP 360 - ON1 - INDIVIDUAL ADDITIONS
+# COMP 360 - ON1 - INDIVIDUAL ADDITIONS
 --------------------------------------------------------
 
 # [your name] - [your work] - [explanation]
