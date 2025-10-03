@@ -7,16 +7,82 @@ Assignment 1 for COMP 360 from Group 2
 # Project Init:
 
 ---------------------------------------------------------
-# Project 2DImage Addition Explanation:
+# Project 2D Image Addition Explanation (Akshit Marwaha)
+
+What I did
+
+Loaded a grayscale 2D image and sampled pixel intensities
+
+Mapped image coordinates to 3D where x and z come from pixel position and y comes from normalized brightness
+
+Built a heightmap mesh by connecting neighboring pixels into triangles
+
+Why it matters
+
+Brighter pixels form peaks and darker pixels form valleys, creating a clear terrain base for the team’s color and lighting work
+
+Key notes
+
+Reduced sampling resolution to improve performance while keeping terrain features clear
+
+Integrated cleanly with the existing geometry and environment settings
+---------------------------------------------------------
+# Project Geometry Map Explanation:(Christian)
+<br>
+I first took a look at how the Geometry3D example project worked. I noticed that the project used surface tool, so I figured that I should start there.
+The Godot documentation on the surface tool helped me understand how it works:
+https://docs.godotengine.org/en/4.4/tutorials/3d/procedural_geometry/surfacetool.html
+
+## First Idea
+I first set up a single triangle by placing 3 vertices and adding the 3 indices. From there I tried to make a square. I did this by creating 3 more vertices adding those new indices.
+Next up I tried to sample the image. The image is black and white. The goal is for the brighter colours to have a greater height, which would simulate an environment.
+
+To sample the image I looped through the 500x500 FastNoiseLite noise image. For each pixel I would create 6 vertices and index them.
+This time i was setting the vertices position to Vector3(x, value of noise at xz, z), which creates the landscape.
+
+After doing this I re-read the documentation and realised that I don't need 6 vertices per pixel, I only need 1 per pixel. Then I should reuse the vertices for the neighbouring pixels.
+
+## Improvement
+So I re-did the geometry, this time I first set up the vertices by looping through the image and creating one vertex per pixel.
+Then I looped through the pixels again, this time indexing 6 vertices in the shape of a square.
+I could have done some simple math to calculate which indices I would need to construct the square, but I instead made a 2d array in which I would temporarily store each index.
+
+End result was this black and white terrain!
+![result](https://github.com/user-attachments/assets/d9312754-1b6d-43e8-a7cf-c88a1fad9679)
 
 ---------------------------------------------------------
-# Project Geometry Map Explanation:
-
----------------------------------------------------------
-# Project Camera3D Explanation:
+# Project Marker3D Explanation:
 
 ---------------------------------------------------------
 # Project Environment Explanation:
+The environment of the project was initialized upon adding a standard colorwave onto the geometry we 
+had already established. Once realizing the possibility of the world building we could do from it, we added
+in the proper use of shadows, lighting, and more to bring it more life for when we add in the colors of the world.
+
+The lighting was set to that akin of the sun's light, but nothing too major as to obstruct the constructed colors.
+The energy and indirect energy was skewed due to this fact so that the light may fall favorably as to also showcase
+the roughness of the material we were using for the world's environment. This is because without light, the world seemed
+a lot more lifeless, and more importantly, smooth and underdeveloped. 
+
+By adding in volumetric fog and a better black border, it helped to separate the difference between each segment of the 
+environment. We added in a directional shadow as well with blend splits to help distinguish the finer spots on the map, 
+which assisted in blending in the various color hues we had made with one another. 
+
+Most importantly, the position of these additions was only slightly altered off the camera as to give it more of a
+"from above" perspective, so that the view is of the sun being up and above even the watcher.
+
+**Reference of No Environment Additions**
+<br> 
+- An example of the reference map with no light or shadows being added
+<br>
+https://github.com/j7ysan/GodotTerrainMap/blob/main/no_light_reference1.png
+
+
+**Reference of Added Environment Variables**
+<br> 
+- An example or examples of the reference map with light and shadows being added
+<br>
+https://github.com/j7ysan/GodotTerrainMap/blob/main/with_light_reference2.png
 
 ---------------------------------------------------------
 # Project Marker3D Explanation: (Manmeet)
@@ -91,15 +157,19 @@ it helps to customize and adjust that light and sky lighting to better fit the w
 <br> 
 - An example of the reference map with no color
 <br>
-res://nocolor_reference_map0.png
+https://github.com/j7ysan/GodotTerrainMap/blob/main/nocolor_reference_map0.png
 
 
-**Reference of Color**
+**Reference of Creating Color**
 <br> 
-- An example or examples of the reference map with color
+- An example or examples of the reference map with color being made
 <br>
-res://reference_map1.png
+https://github.com/j7ysan/GodotTerrainMap/blob/main/baking_map1.png
 
-res://reference_map2.png
+
+https://github.com/j7ysan/GodotTerrainMap/blob/main/reference_map1.png
+
+
+https://github.com/j7ysan/GodotTerrainMap/blob/main/reference_map2.png
 
 ---------------------------------------------------------
